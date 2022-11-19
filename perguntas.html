@@ -1,0 +1,15 @@
+<script>
+    var mostra = function (frase){
+        document.write(frase);
+        document.write("<br>");
+    }
+    var calculaIMC = function(altura,peso){
+        var imc = peso/(altura*altura);
+        return imc;
+    }
+    var nome = prompt ("Bom dia! Qual seu nome?");
+    var altura=prompt("Oi, " + nome + "! Qual sua altura?");
+    var peso = prompt ("E qual seu peso?");
+    var imc = calculaIMC(altura,peso);
+    mostra ("O seu imc é " + imc);
+</script>

@@ -33,6 +33,7 @@
 <script>
     var calculaIMC = function(altura,peso){
         var imc = peso/(altura*altura);
+        return imc;
     }
     mostra ("Meu imc é " + calculaIMC(altura,peso));
     mostra("Eu ainda estou " + (calculaIMC(altura,peso)-18.5) + " pontos acima do limite da magreza.");
