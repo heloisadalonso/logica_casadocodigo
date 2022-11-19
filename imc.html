@@ -4,7 +4,7 @@
     var mostra = function(frase) {
         document.write(frase);
         document.write("<br>");
-    }
+    };
     var peso = 75;
     var altura = 1.72;
     var imc = peso/(altura*altura);
@@ -21,7 +21,7 @@
     var calculaIMC = function(altura, peso){
         var imc = peso / (altura*altura);
         return imc;
-    }
+    };
     var pesoDoPrimo = 83;
     var alturaDoPrimo = 1.76;
     var imcDoPrimo = calculaIMC(alturaDoPrimo, pesoDoPrimo);
@@ -34,7 +34,7 @@
     var calculaIMC = function(altura,peso){
         var imc = peso/(altura*altura);
         return imc;
-    }
+    };
     mostra ("Meu imc é " + calculaIMC(altura,peso));
     mostra("Eu ainda estou " + (calculaIMC(altura,peso)-18.5) + " pontos acima do limite da magreza.");
     mostra("Eu ainda estou "+(35-(calculaIMC(altura,peso))) + " pontos distantes da obesidade");
