@@ -1,5 +1,4 @@
 <script>
-   
    var pulaLinha = function () {
         document.write("<hr>");
     };
@@ -12,3 +11,33 @@
     document.write("Paulo nasceu em: " + (ano - 32));
     pulaLinha();
 </script>
+
+<!--Pular duas linhas-->
+<script>
+    var pulaLinha = function () {
+         document.write("<br>" + "<br>");
+     };
+ 
+     var ano = 2012;
+     document.write("Eu nasci em: " + (ano - 25));
+     pulaLinha();
+     document.write("Adriano nasceu em: " + (ano - 26));
+     pulaLinha();
+     document.write("Paulo nasceu em: " + (ano - 32));
+     pulaLinha();
+ </script>
+ 
+<!--Altere a função pulaLinha para que ela escreva um <hr> entre dois <br>-->
+<script>
+    var pulaLinha = function () {
+         document.write("<br>" + "<hr>" + "<br>");
+     };
+ 
+     var ano = 2012;
+     document.write("<big> Eu nasci em: </big>" + (ano - 25));
+     pulaLinha();
+     document.write("<big> Adriano nasceu em: </big>" + (ano - 26));
+     pulaLinha();
+     document.write("<big> Paulo nasceu em: </big>" + (ano - 32));
+     pulaLinha();
+ </script>
